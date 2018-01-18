@@ -1,0 +1,26 @@
+@font-face {
+    font-family: LrSlideFont;
+    src: url( 'file://|FONTFILENAME|' ) format('|FONTFORMAT|');
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: LrSlideFont, 'Arial', sans-serif;
+    font-size: 50px;
+}
+div#outer {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+div#inner {
+    display: table-cell;
+}
+h1, h2, h3, h4, h5, h6, p, hr, ul, ol, pre, blockquote {
+    margin: 10px;
+}
+ul, ol {
+    list-style-position: inside;
+    padding-left: 0px;
+}

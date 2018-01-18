@@ -1,0 +1,12 @@
+.DS_Store
+build/
+build-number
+debug.log
+lrout.txt
+fontCache.txt
+screenshot.png
+todo.txt
+.idea
+*.iml
+slideTemplate.html
+test.html
