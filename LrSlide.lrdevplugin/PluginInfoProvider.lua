@@ -346,7 +346,7 @@ local function sectionsForTopOfDialog( f, propertyTable )
                 fill = 1,
 
                 f:static_text {
-                    title = 'Set the size for new slides here. If you want to change the size of existing slides, set the size here, press Done, then select the slides and choose Library -> Rerender.',
+                    title = 'Set the size for new slides here. If you want to change the size of existing slides, set the size here, press Done, then select the slides and choose Library -> Plug-in Extras -> LrSlide -> Re-render selected slides.',
                     fill_horizontal = 1,
                     width_in_chars = 55,
                     height_in_lines = 2,
