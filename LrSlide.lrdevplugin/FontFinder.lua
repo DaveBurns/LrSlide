@@ -2,7 +2,7 @@
 
 MIT License
 
-Copyright (c) 2017 David F. Burns
+Copyright (c) 2018 David F. Burns
 
 This file is part of LrSlide.
 
