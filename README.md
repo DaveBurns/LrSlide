@@ -8,7 +8,7 @@ making text slides in PhotoShop.
 without issues. If you find issues, the best way to help is to file a bug here or just
 send an email to lrslide at dave burns photo dot com.**
 
-##Features
+## Features
 
 With a simple dialog box, LrSlide lets you enter text, choose a font and size,
 background and text colors, and do some simple aligning left, right, or center.
@@ -19,36 +19,36 @@ LrSlide lets you enter simple text with no markup. For more interesting text, Lr
 supports a form of markup called Markdown. For advanced users, you can insert HTML
 directly into your text.
 
-##System Requirements
+## System Requirements
 
 LrSlide renders slides as JPEGs using Google Chrome. **You must have Google Chrome installed
 on your machine for LrSlide to work.**
 
 I have tested this with Lightroom Classic CC on both Mac 10.13 (High Sierra) and Windows 10.
 
-##How to Install
+## How to Install
 
 For now, because it's alpha and because it's not clear how much interest there is,
 LrSlide is not packaged. You'll need to download the code from GitHub. GitHub supplies
 a convenient link to download the latest code in a ZIP file:
 https://github.com/DaveBurns/LrSlide/archive/master.zip
 
-##How to Use
+## How to Use
 
 LrSlide adds three menu options under **Library -> Plug-in Extras -> LrSlide**:
 
-####Add Slide...
+#### Add Slide...
 
 This adds a new slide. Enter your text, choose your formatting options, and choose
 **Add Slide**. You should see your slide inserted into your Lightroom catalog.
 
-####Edit Slide...
+#### Edit Slide...
 
 This edits an existing slide. Change the contents or formatting of your slide
 and choose **Edit Slide**. Your selected slide will now reflect your changes
 (but see Known Issues below for why this may not be immediate).
 
-####Re-render selected slides
+#### Re-render selected slides
 
 If you present at different venues that have different projectors or screen
 resolutions, you may want to rerender your slides to match so that there is no
@@ -59,7 +59,7 @@ This regenerates all selected LrSlides.
 
 It does not show a dialog box but does show a progress bar in the top left of Lightroom's window. 
 
-####Text Formatting
+#### Text Formatting
 
 LrSlide offers three different ways to format the contents of your slide.
 You can mix and match these in a single slide:
@@ -77,7 +77,7 @@ for a concise cheatsheet.
 3. **HTML.** You can enter HTML directly if you know what you're doing. LrSlide
 makes no effort to check that your HTML is correctly formed.
 
-####Plug-in Manager
+#### Plug-in Manager
 
 You can set some global options for LrSlide using **File -> Plug-in Manager...**
 then choosing **LrSlide** in the left panel.
@@ -97,9 +97,7 @@ in pixels that you would like your slides to be rendered in JPEGs. This size
 does not affect existing slides - only newly created ones. To change the size
 of existing slides, select them and use the **Re-render selected slides** feature.
 
-
-
-##Known Issues
+## Known Issues
 
 - Lightroom does not give plug-in authors a way to update images displayed in
 Library mode. If you edit an existing slide, Lightroom does not show the changes
@@ -107,7 +105,7 @@ immediately. You need to "poke" Lightroom to get it to know there were changes.
 Usually all that's needed is to select another image than select your slide
 again - an easy left/right with the arrow keys for instance.
 
-##Ideas for Future Enhancements
+## Ideas for Future Enhancements
 - Allow a background image with some alpha transparency.
 - Allow the ability to insert images.
 - Add the ability to choose different slide templates, including user-supplied HTML and/or CSS files.
