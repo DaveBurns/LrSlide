@@ -4,7 +4,7 @@ LrSlide is a plugin for Adobe Lightroom that adds the ability to generate text s
 I wrote LrSlide because I frequently make presentations using Lightroom and I was tired of
 making text slides in PhotoShop.
 
-**I consider this project to be 'alpha' software until I hear more people have used it
+**I consider this project to be 'beta' software until I hear more people have used it
 without issues. If you find issues, the best way to help is to file a bug here or just
 send an email to lrslide at dave burns photo dot com.**
 
@@ -28,7 +28,7 @@ I have tested this with Lightroom Classic CC on both Mac 10.13 (High Sierra) and
 
 ## How to Install
 
-For now, because it's alpha and because it's not clear how much interest there is,
+For now, because it's beta and because it's not clear how much interest there is,
 LrSlide is not packaged. You'll need to download the code from GitHub. GitHub supplies
 a convenient link to download the latest code in a ZIP file:
 https://github.com/DaveBurns/LrSlide/archive/master.zip
@@ -102,7 +102,7 @@ of existing slides, select them and use the **Re-render selected slides** featur
 - Lightroom does not give plug-in authors a way to update images displayed in
 Library mode. If you edit an existing slide, Lightroom does not show the changes
 immediately. You need to "poke" Lightroom to get it to know there were changes.
-Usually all that's needed is to select another image than select your slide
+Usually all that's needed is to select another image then select your slide
 again - an easy left/right with the arrow keys for instance.
 
 ## Ideas for Future Enhancements
